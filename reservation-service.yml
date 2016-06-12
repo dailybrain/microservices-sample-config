@@ -1,5 +1,8 @@
 message: Hello World!!!
 
+spring:
+  profiles:
+    active: development
 ---
 spring:
   profiles: development
@@ -28,7 +31,3 @@ spring:
   datasource:
     url: jdbc:h2:mem:testdb;DB_CLOSE_ON_EXIT=FALSE
     initialize: false
----
-spring:
-  profiles: default
-    active: development
