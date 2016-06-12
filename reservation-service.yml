@@ -3,6 +3,16 @@ message: Hello World!!!
 server:
   port: ${PORT:8000}
 
+spring.cloud.stream.bindings.input:
+  # define the destination to which the input MessageChannel should be bound
+  destination: reservations
+
+  # ensures 1 node in a group gets message (point-to-point, not a broadcast)
+  group: reservations
+
+  # ensure that the Q is durable
+  input.durableSubscription: true
+
 spring:
   profiles:
     active: development

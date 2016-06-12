@@ -1,3 +1,5 @@
+spring.rabbitmq.host: rabbitmq
+
 info:
   id: ${spring.application.name}
 
