@@ -1,4 +1,5 @@
 spring.rabbitmq.host: rabbitmq
+spring.zipkin.host: zipkin-service
 
 info:
   id: ${spring.application.name}
