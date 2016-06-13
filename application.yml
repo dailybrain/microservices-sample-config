@@ -15,3 +15,6 @@ logging:
 
     # Set DEBUG level on Hystrix to get an error message when a fallback method is used.
     com.netflix.hystrix: DEBUG
+
+spring.sleuth.sampler.percentage: 1.0
+spring.sleuth.log.json.enabled: true
