@@ -4,6 +4,10 @@ server:
 spring.cloud.stream.bindings.output.destination: reservations
 hystrix.command.default.execution.isolation.strategy: SEMAPHORE
 
+ribbon:
+  ConnectTimeout: 250
+  ReadTimeout: 2000
+
 spring:
   profiles:
     active: development
