@@ -1,5 +1,5 @@
 spring.rabbitmq.host: rabbitmq
-spring.zipkin.baseUrl: http://zipkin-service:9411
+spring.zipkin.baseUrl: http://zipkin-dashboard:9411
 
 info:
   id: ${spring.application.name}
