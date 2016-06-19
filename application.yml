@@ -19,3 +19,8 @@ logging:
 
 spring.sleuth.sampler.percentage: 1.0
 spring.sleuth.log.json.enabled: true
+
+---
+spring:
+  profiles: development
+  rabbitmq.host: 192.168.99.100
