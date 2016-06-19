@@ -22,9 +22,6 @@ spring:
 ---
 spring:
   profiles: docker
-  jpa:
-    database: MYSQL
-    generate-ddl: true
   datasource:
     url: jdbc:mysql://mysql:3306/dev
     username: root
