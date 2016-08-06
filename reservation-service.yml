@@ -19,6 +19,11 @@ spring:
 ---
 spring:
   profiles: development
+  datasource:
+    url: jdbc:mysql://localhost:3306/dev
+    username: root
+    password: dbpass
+    initialize: true
 ---
 spring:
   profiles: docker
