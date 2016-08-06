@@ -23,7 +23,7 @@ spring:
 ---
 spring:
   profiles: development
-  rabbitmq.host: 0.0.0.0
+  rabbitmq.host: localhost
 ---
 spring:
   profiles: docker
